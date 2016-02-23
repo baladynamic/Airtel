@@ -1,0 +1,8 @@
+<suite name="Suite" parallel="none" verbose="2">
+   <test name="AxisPOM chrome">
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="POM.Mainclass"/>
+    </classes>
+  </test>
+</suite>
