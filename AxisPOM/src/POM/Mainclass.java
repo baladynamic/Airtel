@@ -36,7 +36,7 @@ public class Mainclass extends Reusable {
 	  
 	 // click(popupclose);
 	     click(perlogin);
-	     wait(1000);
+	     wait(2000);
 		 click(continuelogin);
 		 wait(1000);
 		 Entereditbxvalue(loginid, userid);
@@ -45,7 +45,7 @@ public class Mainclass extends Reusable {
 		 wait(2000);
 		 Explicitwait(logout);
 		 clickbyxpath("//input[contains(@id,'GET_STATEMENT')]");
-		 wait(2000);
+		 wait(1000);
 		 
 		 clickbyxpath("//span[text()='Get Statement']");
 		 wait(2000);
